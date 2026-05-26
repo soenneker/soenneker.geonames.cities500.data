@@ -40,6 +40,7 @@
         <None Include="..\..\README.md" Pack="true" PackagePath="\" />
         <None Include="..\..\LICENSE" Pack="true" PackagePath="\" />
         <None Include="..\..\icon.png" Pack="true" PackagePath="\" />
-        <Content Include="Resources\cities500.txt" Pack="true" PackageCopyToOutput="true" />
+        <Content Include="Resources\cities500.txt" Pack="true" PackageCopyToOutput="true" CopyToOutputDirectory="PreserveNewest"
+                 Condition="Exists('Resources\cities500.txt')" />
     </ItemGroup>
 </Project>
