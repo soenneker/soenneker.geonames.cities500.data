@@ -3,7 +3,7 @@
 [![](https://img.shields.io/nuget/dt/soenneker.geonames.cities500.data.svg?style=for-the-badge)](https://www.nuget.org/packages/soenneker.geonames.cities500.data/)
 
 # ![](https://user-images.githubusercontent.com/4441470/224455560-91ed3ee7-f510-4041-a8d2-3fc093025112.png) Soenneker.GeoNames.Cities500.Data
-### A lookup util for US cities with populations under 500, provided by GeoNames, updated daily.
+### GeoNames cities500 data for cities with population greater than 500 or administrative seats, updated daily.
 
 ## Installation
 
