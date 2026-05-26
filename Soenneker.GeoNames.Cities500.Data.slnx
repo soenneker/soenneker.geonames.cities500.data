@@ -1,0 +1,16 @@
+<Solution>
+  <Folder Name="/.github/">
+    <File Path=".github/renovate.json" />
+  </Folder>
+  <Folder Name="/.github/workflows/">
+    <File Path=".github/workflows/build-and-test.yml" />
+    <File Path=".github/workflows/codeql.yml" />
+    <File Path=".github/workflows/publish-package.yml" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/Soenneker.GeoNames.Cities500.Data/Soenneker.GeoNames.Cities500.Data.csproj" />
+  </Folder>
+  <Folder Name="/test/">
+    <Project Path="test/Soenneker.GeoNames.Cities500.Data.Tests/Soenneker.GeoNames.Cities500.Data.Tests.csproj" />
+  </Folder>
+</Solution>
