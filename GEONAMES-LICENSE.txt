@@ -1,0 +1,13 @@
+GeoNames cities500 dataset
+
+The cities500 data distributed by this package is provided by GeoNames:
+https://www.geonames.org/
+
+GeoNames publishes the data under the Creative Commons Attribution 4.0
+International license:
+https://creativecommons.org/licenses/by/4.0/
+
+The upstream data is provided as-is, without a representation of accuracy,
+timeliness, or completeness. The MIT license in LICENSE applies to this
+package's software and packaging, not as a replacement for the dataset's
+Creative Commons license.
