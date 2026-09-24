@@ -14,4 +14,7 @@
         <ProjectReference Include="..\..\src\Soenneker.GeoNames.Cities500.Data\Soenneker.GeoNames.Cities500.Data.csproj" />
     </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Soenneker.Utils.File" Version="4.0.2280" />
+  </ItemGroup>
 </Project>
