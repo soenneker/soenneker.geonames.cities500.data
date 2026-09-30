@@ -12,7 +12,7 @@ public sealed class GeonamesCities500DataTests
     private static readonly IFileUtil _fileUtil = new Soenneker.Utils.File.FileUtil(NullLogger<Soenneker.Utils.File.FileUtil>.Instance, new MemoryStreamUtil());
 
     [Test]
-    public async Task Declares_cities500_resource_for_runner_packaging()
+    public async ValueTask Declares_cities500_resource_for_runner_packaging()
     {
         string projectPath = Path.GetFullPath(Path.Combine(AppContext.BaseDirectory, "..", "..", "..", "..", "..", "src",
             "Soenneker.GeoNames.Cities500.Data", "Soenneker.GeoNames.Cities500.Data.csproj"));
