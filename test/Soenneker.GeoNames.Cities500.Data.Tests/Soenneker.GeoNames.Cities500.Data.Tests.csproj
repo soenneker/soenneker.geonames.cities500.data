@@ -7,7 +7,7 @@
         <IsPackable>false</IsPackable>
     </PropertyGroup>
 
-    <ItemGroup><PackageReference Include="TUnit" Version="1.74.0" />
+    <ItemGroup><PackageReference Include="TUnit" Version="1.75.0" />
     </ItemGroup>
 
     <ItemGroup>
@@ -15,6 +15,6 @@
     </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Soenneker.Utils.File" Version="4.0.2299" />
+    <PackageReference Include="Soenneker.Utils.File" Version="4.0.2303" />
   </ItemGroup>
 </Project>
